@@ -1,0 +1,127 @@
+<ion-view id="home">
+    <!--下厨房头部-->
+    <ion-header-bar class="item-input-inset">
+        <button class="button button-icon icon ion-android-add"></button>
+        <div class="item-input-wrapper">
+            <i class="icon ion-search placeholder-icon"></i>
+            <input type="search" placeholder="搜索菜谱、食材">
+        </div>
+        <button class="button button-icon icon ion-bag"></button>
+    </ion-header-bar>
+    <ion-content>
+            <!--副导航-->
+        <div class="row subNav_row">
+            <div class="col" ui-sref="tabs.curePavo">
+                <div class="subNav_icon"><img src="images/tubiao_03.png"/></div>
+                <div class="subNav_font">烘焙优惠</div>
+            </div>
+            <div class="col" ui-sref="tabs.answers">
+                <div class="subNav_icon"><img src="images/tubiao_07.png"/></div>
+                <div class="subNav_font">厨房问答</div>
+            </div>
+            <div class="col">
+                <div class="subNav_icon"><img src="images/tubiao_05.png"/></div>
+                <div class="subNav_font">排行榜</div>
+            </div>
+            <div class="col">
+                <div class="subNav_icon"><img src="images/tubiao_13.png"/></div>
+                <div class="subNav_font">菜谱分类</div>
+            </div>
+        </div>
+        <!--横排两张图-->
+        <div class="row popMenu">
+            <div class="col" ui-sref="tabs.popMenu">
+                <div class="popMenu_left">
+                    <img src="images/yaqian3.jpg"/>
+                    <div class="pop_modal"><p>本周流行菜谱</p></div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="popMenu_right">
+                    <img src="images/haoyou.jpg"/>
+                    <div class="pop_modal">
+                        <div class="icon"><i class="ion-ios-wineglass-outline"></i></div>
+                        <p>查看好友并关注</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <ion-slide-box>
+            <ion-slide class="three_meals">
+                <i class="line"></i>
+                <i class="eat">早餐</i>
+                <i class="line"></i>
+                <p>2116作品</p>
+                <div class="cat"><img src="images/maomi_03.png"/></div>
+                <div class="meals_pic"><img src="images/zaocan1_01.jpg"/></div>
+            </ion-slide>
+            <ion-slide class="three_meals">
+                <i class="line"></i>
+                <i class="eat">午餐</i>
+                <i class="line"></i>
+                <p>786作品</p>
+                <div class="cat"><img src="images/maomi_07.png"/></div>
+                <div class="meals_pic"><img src="images/wucan1_02.jpg"/></div>
+            </ion-slide>
+            <ion-slide class="three_meals">
+                <i class="line"></i>
+                <i class="eat">晚餐</i>
+                <i class="line"></i>
+                <p>1203作品</p>
+                <div class="cat"><img src="images/maomi_10.png"/></div>
+                <div class="meals_pic"><img src="images/wancan1_02.jpg"/></div>
+            </ion-slide>
+        </ion-slide-box>
+        <ion-list>
+            <div ng-repeat="item in homedata">
+                <ion-item ng-class="item.date? 'ad_item item-text-wrap topBorder':'ad_item item-text-wrap'" ng-if="item.type=='ad'">
+                    <h4 ng-if="item.date">{{item.date}}</h4>
+                    <div class="ad_pic"><img ng-src="images/{{item.menuPic}}"/></div>
+                    <p ng-if="item.desc">{{item.desc}}</p>
+                </ion-item>
+                <ion-item ng-class="item.date? 'tutorial_item item-text-wrap topBorder':'tutorial_item item-text-wrap'" ng-if="item.type=='tutorial'" ui-sref="tabs.tutorialDesc({title:item.title})">
+                    <h4>{{item.date}}</h4>
+                    <div class="pic"><img ng-src="images/{{item.menuPic}}"/></div>
+                    <div class="text">
+                        <h3>{{item.title}}</h3>
+                        <div class="desc">{{item.desc}}</div>
+                        <div class="note" ng-if="item.grade">{{item.grade}}分·{{item.does}}人做过</div>
+                        <div class="nick">
+                            <div class="nick_pic"><img src="images/{{item.nickPic}}"/></div>
+                            <div class="nick_name">{{item.nick}}</div>
+                        </div>
+                    </div>
+                </ion-item>
+                <ion-item ng-class="item.date? 'tutorial_item item-text-wrap topBorder':'tutorial_item item-text-wrap'" ng-if="item.type=='popaz'">
+                    <h4>{{item.date}}</h4>
+                    <div class="pic"><img ng-src="images/{{item.menuPic}}"/></div>
+                    <div class="text">
+                        <h3>{{item.title}}</h3>
+                        <div class="desc">{{item.desc}}</div>
+                        <div class="note" ng-if="item.grade">{{item.grade}}分·{{item.does}}人做过</div>
+                        <div class="nick">
+                            <div class="nick_pic"><img src="images/{{item.nickPic}}"/></div>
+                            <div class="nick_name">{{item.nick}}</div>
+                        </div>
+                    </div>
+                </ion-item>
+                <ion-item ng-class="item.date? 'onlyPic_item item-text-wrap toBorder':'onlyPic_item item-text-wrap'" ng-if="item.type=='onlyPic'" ui-sref="tabs.popMenu">
+                    <h4>{{item.date}}</h4>
+                    <div class="only_pic">
+                        <img src="images/{{item.menuPic}}"/>
+                        <div class="font_modal">
+                            <h3>{{item.modalTitle}}</h3>
+                            <span>{{item.count}}道菜谱</span>
+                        </div>
+                    </div>
+                </ion-item>
+                <ion-item ng-class="item.date? 'item-text-wrap question_item toBorder':'item-text-wrap question_item'" ng-if="item.type=='qu'">
+                    <h4>{{item.date}}</h4>
+                    <h3>{{item.qu}}</h3>
+                    <p>{{item.an}}</p>
+                    <span>{{item.note}}</span>
+                </ion-item>
+            </div>
+        </ion-list>
+    </ion-content>
+</ion-view>

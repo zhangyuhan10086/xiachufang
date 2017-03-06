@@ -1,0 +1,125 @@
+[
+  {
+    "key_word": "hongpei",
+    "title":"烘焙",
+    "subTitles": [
+      {
+        "subTitle": "乳制品"
+      },
+      {
+        "subTitle": "烘焙辅料"
+      },
+      {
+        "subTitle": "半成品"
+      },
+      {
+        "subTitle": "烘焙工具"
+      },
+      {
+        "subTitle": "模具"
+      },
+      {
+        "subTitle": "烘焙电器"
+      }
+    ]
+  },
+  {
+    "key_word": "guoshu",
+    "title":"果蔬生鲜",
+    "subTitles": [
+      {
+        "subTitle": "水果"
+      },
+      {
+        "subTitle": "猪肉羊肉"
+      },
+      {
+        "subTitle": "水产海鲜"
+      },
+      {
+        "subTitle": "家禽蛋类"
+      },
+      {
+        "subTitle": "蔬菜"
+      }
+    ]
+  },
+  {
+    "key_word": "qiju",
+    "title":"器具",
+    "subTitles": [
+      {
+        "subTitle": "烹饪锅具"
+      },
+      {
+        "subTitle": "杯碗盘碟"
+      },
+      {
+        "subTitle": "刀剪砧板"
+      },
+      {
+        "subTitle": "其他"
+      }
+    ]
+  },
+  {
+    "key_word": "fangbian",
+    "title":"方便食品",
+    "subTitles": [
+      {
+        "subTitle": "方便粉面"
+      },
+      {
+        "subTitle": "谷物麦片"
+      },
+      {
+        "subTitle": "罐头"
+      },
+      {
+        "subTitle": "混沌"
+      },
+      {
+        "subTitle": "年糕"
+      }
+    ]
+  },
+  {
+    "key_word": "jinkou",
+    "title":"进口食品",
+    "subTitles": [
+      {
+        "subTitle": "日本食品"
+      },
+      {
+        "subTitle": "进口方便面"
+      },
+      {
+        "subTitle": "进口麦片"
+      },
+      {
+        "subTitle": "进口巧克力"
+      },
+      {
+        "subTitle": "进口饼干"
+      }
+    ]
+  },
+  {
+    "key_word": "tiaowei",
+    "title":"调味品",
+    "subTitles": [
+      {
+        "subTitle": "常用调料"
+      },
+      {
+        "subTitle": "川味调料"
+      },
+      {
+        "subTitle": "辣酱"
+      },
+      {
+        "subTitle": "日式调料"
+      }
+    ]
+  }
+]

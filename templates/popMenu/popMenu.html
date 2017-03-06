@@ -1,0 +1,23 @@
+<ion-view id="popMenu"  hide-tabs="true">
+    <ion-header-bar align-title="center">
+        <button class="button button-icon icon ion-ios-arrow-back backIcon" ng-click="goBack()"></button>
+        <div class="title">本周流行菜谱</div>
+        <button class="button item-button-right button-icon icon ion-bag"></button>
+    </ion-header-bar>
+    <ion-content>
+        <ion-list>
+            <ion-item class="tutorial_item item-text-wrap" ui-sref="tabs.tutorialDesc({title:item.title})"  ng-repeat="item in popDate">
+                <div class="pic"><img ng-src="images/{{item.menuPic}}"/></div>
+                <div class="text">
+                    <h3>{{item.title}}</h3>
+                    <div class="desc">{{item.desc}}</div>
+                    <div class="note" ng-if="item.grade">{{item.grade}}分·{{item.does}}人做过</div>
+                    <div class="nick">
+                        <div class="nick_pic"><img src="images/{{item.nickPic}}"/></div>
+                        <div class="nick_name">{{item.nick}}</div>
+                    </div>
+                </div>
+            </ion-item>
+        </ion-list>
+    </ion-content>
+</ion-view>

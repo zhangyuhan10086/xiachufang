@@ -1,0 +1,186 @@
+[
+  {
+    "title": "限时特惠",
+    "sale_products": [
+      {
+        "sale_img": "sale_pic01.jpg",
+        "price": 1,
+        "name": "俏皮蛋挞皮小号",
+        "seller": "层次分明起酥快"
+      },
+      {
+        "sale_img": "sale_pic02.jpg",
+        "price": 16.8,
+        "name": "展艺活低蛋糕模",
+        "seller": "6寸8寸10寸可选"
+      },
+      {
+        "sale_img": "sale_pic03.jpg",
+        "price": 1,
+        "name": "舒克曼蛋糕粉500g",
+        "seller": "更多优惠进店选"
+      }
+    ]
+  },
+  {
+    "title": "黄油",
+    "sale_products": [
+      {
+        "sale_img": "sale_pic04.jpg",
+        "price": 24.7,
+        "name": "安佳无盐黄油454g",
+        "seller": "舒可曼官方旗舰店"
+      },
+      {
+        "sale_img": "sale_pic05.jpg",
+        "price": 23.8,
+        "name": "威士无盐黄油454g",
+        "seller": "舒可曼官方旗舰店"
+      },
+      {
+        "sale_img": "sale_pic06.jpg",
+        "price": 29.8,
+        "name": "总统发酵淡味黄油卷250g",
+        "seller": "舒可曼官方旗舰店"
+      }
+    ]
+  },
+  {
+    "title": "淡奶油",
+    "sale_products": [
+      {
+        "sale_img": "sale_pic07.jpg",
+        "price": 38.8,
+        "name": "爱乐微铁塔淡奶油1L",
+        "seller": "麦克乐家庭烘焙"
+      },
+      {
+        "sale_img": "sale_pic08.jpg",
+        "price": 39.8,
+        "name": "总统淡奶油",
+        "seller": "家有猪鼻"
+      },
+      {
+        "sale_img": "sale_pic09.jpg",
+        "price": 7.8,
+        "name": "雀巢动物性淡奶油250ml",
+        "seller": "玖富食品专营店"
+      }
+    ]
+  },
+  {
+    "title": "蛋糕粉",
+    "sale_products": [
+      {
+        "sale_img": "sale_pic10.jpg",
+        "price": 4.5,
+        "name": "新良蛋糕粉低筋面粉500g",
+        "seller": "巧厨家庭烘焙"
+      },
+      {
+        "sale_img": "sale_pic11.jpg",
+        "price": 15.8,
+        "name": "美九蛋糕低筋面粉1000g",
+        "seller": "玖富食品专营店"
+      },
+      {
+        "sale_img": "sale_pic12.jpg",
+        "price": 22,
+        "name": "王后软白低筋粉1kg",
+        "seller": "贝壳烘焙"
+      }
+    ]
+  },
+  {
+    "title": "面包粉",
+    "sale_products": [
+      {
+        "sale_img": "sale_pic13.jpg",
+        "price": 6.5,
+        "name": "新良全麦面包粉500g",
+        "seller": "巧厨家庭烘焙"
+      },
+      {
+        "sale_img": "sale_pic14.jpg",
+        "price": 4.5,
+        "name": "新良全麦面包粉高筋500g",
+        "seller": "乐众食品专营店"
+      },
+      {
+        "sale_img": "sale_pic15.jpg",
+        "price": 16.8,
+        "name": "金像面包粉高筋面粉1kg",
+        "seller": "玖富食品专营店"
+      }
+    ]
+  },
+  {
+    "title": "奶酪",
+    "sale_products": [
+      {
+        "sale_img": "sale_pic16.jpg",
+        "price": 26.8,
+        "name": "妙可蓝多马苏里拉芝士奶酪450g",
+        "seller": "舒可曼官方旗舰店"
+      },
+      {
+        "sale_img": "sale_pic17.jpg",
+        "price": 68,
+        "name": "安佳奶油芝士1kg",
+        "seller": "舒可曼官方旗舰店"
+      },
+      {
+        "sale_img": "sale_pic18.jpg",
+        "price": 13.8,
+        "name": "妙可蓝多奶油奶酪芝士240g",
+        "seller": "舒可曼官方旗舰店"
+      }
+    ]
+  },
+  {
+    "title": "糖",
+    "sale_products": [
+      {
+        "sale_img": "sale_pic19.jpg",
+        "price": 6.5,
+        "name": "舒克曼糖霜250g",
+        "seller": "舒可曼官方旗舰店"
+      },
+      {
+        "sale_img": "sale_pic20.jpg",
+        "price": 7,
+        "name": "舒克曼砂糖400g",
+        "seller": "舒可曼官方旗舰店"
+      },
+      {
+        "sale_img": "sale_pic21.jpg",
+        "price": 15.5,
+        "name": "太古白砂糖1kg",
+        "seller": "小厨之家"
+      }
+    ]
+  },
+  {
+    "title": "精品推荐",
+    "sale_products": [
+      {
+        "sale_img": "sale_pic22.jpg",
+        "price": 39.5,
+        "name": "寻乐|烘焙模具工具套装",
+        "seller": "寻乐烘焙官方旗舰店"
+      },
+      {
+        "sale_img": "sale_pic23.jpg",
+        "price": 17.8,
+        "name": "蛋挞皮",
+        "seller": "舒可曼官方旗舰店"
+      },
+      {
+        "sale_img": "sale_pic24.jpg",
+        "price": 15.8,
+        "name": "7式葡式蛋挞皮30只装",
+        "seller": "乐众食品专营店"
+      }
+    ]
+  }
+]

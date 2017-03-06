@@ -1,0 +1,186 @@
+[
+  {
+    "type": "p",
+    "img": "sale_pic30.jpg",
+    "name": "三顿半|挂耳咖啡20包澎湃装 精品系列（多款选）",
+    "selled": 1531,
+    "baoyou": true,
+    "price": 89
+  },
+  {
+    "type": "p",
+    "img": "sale_pic31.jpg",
+    "name": "故柿|富平柿饼（3种规格可选）",
+    "selled": 1431,
+    "baoyou": true,
+    "price": 41
+  },
+  {
+    "type": "p",
+    "img": "sale_pic32.jpg",
+    "name": "【2盒19.8】秀尔魅薏仁茶红豆薏米茶粉去祛茶湿茶湿热湿气袋泡茶",
+    "selled": 456,
+    "baoyou": true,
+    "price": 42
+  },
+  {
+    "type": "p",
+    "img": "sale_pic33.jpg",
+    "name": "【两份减5元】云南特产新鲜水果玉米包谷甜脆生吃苞米棒蔬菜5斤",
+    "selled": 14541,
+    "baoyou": false,
+    "price": 20
+  },
+  {
+    "type": "p",
+    "img": "sale_pic34.jpg",
+    "name": "法国进口DURALEX/多莱斯彩色钢化玻璃餐具15件 家用碗盘",
+    "selled": 7897,
+    "baoyou": true,
+    "price": 542
+  },
+  {
+    "type": "p",
+    "img": "sale_pic35.jpg",
+    "name": "唤笙高档保温杯时尚男女士真空不锈钢水杯子情侣学生儿童便携茶杯",
+    "selled": 4567,
+    "baoyou": false,
+    "price": 124
+  },
+  {
+    "type": "p",
+    "img": "sale_pic36.jpg",
+    "name": "日本泰福高304不锈钢保温壶 家用热水瓶保温瓶保温水壶暖壶大容量",
+    "selled": 7457,
+    "baoyou": true,
+    "price": 364
+  },
+  {
+    "type": "p",
+    "img": "sale_pic37.jpg",
+    "name": "几木朵 雪梨膏 台湾原装进口 梨山高山雪梨 330g 秋梨膏",
+    "selled":4453,
+    "baoyou": true,
+    "price": 12
+  },
+  {
+    "type": "m",
+    "dt":"烘焙用品",
+    "dd1":"淡奶油",
+    "dd2":"黄油",
+    "dd3":"芝士",
+    "dd4":"奶油奶酪",
+    "dd5":"模具",
+    "dd6":"烤具",
+    "dd7":"电子秤",
+    "dd8":"打蛋器"
+  },
+  {
+    "type": "p",
+    "img": "sale_pic38.jpg",
+    "name": "雀巢淡奶油1L 易打发动物稀奶油 甜品蛋挞裱花蛋糕奶油 烘培原料",
+    "selled": 456,
+    "baoyou": true,
+    "price": 75
+  },
+  {
+    "type": "p",
+    "img": "sale_pic39.jpg",
+    "name": "唯臻农场东北大米黑龙江长粒香5KG农家生态2016新米大米10斤粳米",
+    "selled": 3131,
+    "baoyou": false,
+    "price": 36
+  },
+  {
+    "type": "p",
+    "img": "sale_pic40.jpg",
+    "name": "聚【三只松鼠_小贱牛肉粒110g】零食特产小吃牛肉干香辣味/XO酱味",
+    "selled": 3531,
+    "baoyou": true,
+    "price": 78
+  },
+  {
+    "type": "p",
+    "img": "sale_pic41.jpg",
+    "name": "狗狗零食1300g大礼包泰迪宠物磨牙棒咬胶骨头幼犬牛肉条粒鸡胸肉",
+    "selled": 151,
+    "baoyou": false,
+    "price": 142
+  },
+  {
+    "type": "p",
+    "img": "sale_pic42.jpg",
+    "name": "【周黑鸭旗舰店_锁鲜】气调盒装卤鸭脖320g 武汉特产食品零食小吃",
+    "selled": 1561,
+    "baoyou": true,
+    "price": 36
+  },
+  {
+    "type": "p",
+    "img": "sale_pic43.jpg",
+    "name": "良品铺子猪肉脯小包装猪肉干零食小吃肉干肉脯猪肉铺蜜汁休闲食品",
+    "selled": 1661,
+    "baoyou": true,
+    "price": 47
+  },
+  {
+    "type": "p",
+    "img": "sale_pic44.jpg",
+    "name": "正宗徐福记糖果年货零食500g黑糖话梅糖硬糖陈皮糖喜糖批发散装",
+    "selled": 1231,
+    "baoyou": false,
+    "price": 12.3
+  },
+  {
+    "type": "p",
+    "img": "sale_pic45.jpg",
+    "name": "2斤装山东特产老姜糖 姜汁糖生姜糖手工硬姜糖姜糖片休闲零食包邮",
+    "selled": 1231,
+    "baoyou": true,
+    "price": 45
+  },
+  {
+    "type": "p",
+    "img": "sale_pic46.jpg",
+    "name": "淘豆原味蜜汁xo酱靖江特产猪肉脯干600g小吃零食熟肉干品批发",
+    "selled": 3657,
+    "baoyou": true,
+    "price": 12
+  },
+  {
+    "type": "m",
+    "dt":"早餐精选",
+    "dd1":"鹰嘴豆",
+    "dd2":"每日坚果",
+    "dd3":"鸡胸肉",
+    "dd4":"牛油果",
+    "dd5":"杂粮",
+    "dd6":"麦片",
+    "dd7":"挂耳咖啡",
+    "dd8":"牛奶"
+  },
+  {
+    "type": "p",
+    "img": "sale_pic47.jpg",
+    "name": "良品铺子猪肉脯小包装猪肉干零食小吃肉干肉脯猪肉铺蜜汁休闲食品",
+    "selled": 3677,
+    "baoyou": true,
+    "price": 88
+  },
+  {
+    "type": "p",
+    "img": "sale_pic48.jpg",
+    "name": "包邮嘉华鲜花饼 10枚装经典玫瑰鲜花饼云南特产零食品传统糕点心",
+    "selled": 1531,
+    "baoyou": false,
+    "price": 20
+  },
+  {
+    "type": "p",
+    "img": "sale_pic49.jpg",
+    "name": "俏嘴巴清水鱼40包小鱼仔 零食小鱼干湖南特产熟食香辣鱼仔毛毛鱼",
+    "selled": 531,
+    "baoyou": true,
+    "price": 45
+  }
+]

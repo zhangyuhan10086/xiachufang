@@ -1,0 +1,123 @@
+<ion-view id="productDesc">
+    <ion-header-bar>
+        <button class="button button-icon icon ion-ios-arrow-back backIcon" ng-click="goBack()"></button>
+
+        <button class="button item-button-right button-icon icon ion-ios-cart-outline" ui-sref="tabs.cart">
+            <div class="huizhang" ng-if="numberAdd()>0">
+                <span>{{numberAdd()}}</span>
+            </div>
+        </button>
+    </ion-header-bar>
+    <ion-content>
+        <ion-slide-box>
+            <ion-slide ng-repeat="pro in p.imgs">
+                <div class="product_pic"><img ng-src="images/{{pro.img}}"/></div>
+            </ion-slide>
+        </ion-slide-box>
+        <div class="row tips">
+            <div class="col">评分<span>{{p.grade}}</span></div>
+            <div class="col">月销<span>{{p.selled}}</span>件</div>
+            <div class="col">总销售<span>{{p.all_selled}}</span>件</div>
+        </div>
+        <div class="name">
+            <div class="subhead">{{p.subhead}}</div>
+            <div class="p_name">{{p.name}}</div>
+            <div class="price clearfix">
+                <div class="price_l">￥{{p.price}}</div>
+                <div class="baoyou" ng-if="p.baoyou">包邮</div>
+            </div>
+            <div class="favo">特价优惠</div>
+        </div>
+        <div class="desc">
+            购买注意：<br/>
+            澎湃装为牛皮纸简装，不含糖条，有铝箔密封袋。三顿半升级为充氮保鲜，咖啡风味表现更好。澎湃装保质期为9个月，风味保鲜3个月左右。<br/>
+             -------------------------------------<br/><br/><br/>
+            [EVERYDAY 20] 20包澎湃装<br/>
+            [FARMER RESERVE] 庄园精选系列<br/>
+             -------------------------------------<br/><br/><br/>
+            全新升级的挂耳咖啡系列。<br/>
+            从产地级提升至庄园级，综合评分80+。<br/>
+            引入全球认证咖啡，全程品质管理可溯源。（请见底部的详情说明）<br/>
+            整体调低果酸度，风味更为醇厚，亲和。<br/><br/><br/>
+             -------------------------------------<br/><br/><br/>
+            20包混合装：为以下8款风味，每款2包，另有2包秘鲁公平贸易+2包巴西达拉<br>
+            20包单一产地装：以下每款咖啡20包<br/><br/>
+            ①埃塞俄比亚是著名的阿拉比卡咖啡豆的诞生地，人们至今一直保持着采收野生咖啡豆的传统。海拔超过1500米的咖啡园，经过千年多的演变与适应，形成了独特的咖啡风土，在自然野生环境下生长的埃塞俄比亚咖啡被称作“旷野的咖啡”，保留着咖啡豆最原始、最自然的味道，具有对风土最直接和充分的表达。<br/>
+            ②肯尼亚的咖啡历史并不长，二十世纪初开始引进阿拉比卡咖啡品种，后更多地培育来自巴西的波本（Bourbon）品种。<br/>
+            ③“许多哥伦比亚的小咖啡农独立种植、采收和加工他们的咖啡豆，出现了一些令人耳目一新的单一地块咖啡，它们的品质反映了咖啡农的匠心，以及它们所处的独特风土。”<br>
+            ④“来自这个中美洲小国的咖啡在近些年表现十分突出：和谐、甜美、柔和，香味十足，品味它就好像是向着它的根源（玛雅文化）探索。”<br/>
+            ⑤哥斯达黎加咖啡豆以阿拉比卡咖啡豆为主，以水洗方式处理，风格明亮，酸性温和，甜度极佳。哥斯达黎加咖啡协会统一管理全国的咖啡工业，并设有专门的科研机构，发掘和改善本土咖啡的品质。<br/>
+            购买请注意：<br/>
+            1.咖啡在3-5天养豆期才能磨粉，所以不是订单当天烘豆，是订单前的3-5天<br/>
+            2.按订单顺序，发货当天研磨及封装，确保品质和新鲜。<br/>
+            3.咖啡豆偶有断档，可能会缺某一种风格，不做另行通知，8包装数不变，请多谅解。
+        </div>
+        <div class="store_name">
+            <div class="store_icon"><img src="images/{{p.store_icon}}"/></div>
+            <div class="s_name">{{p.store_name}}</div>
+            <div class="store_desc">
+                商品数<span>{{p.store_num}}</span>{{p.store_tip}}
+            </div>
+            <div class="stroll">去逛逛</div>
+        </div>
+        <div class="appraise">
+            <div class="appraise_num">{{p.appraise_num}}人评价</div>
+            <div class="appraise_grade">
+                <i class="ion-star" ng-repeat="i in getNumber(p.wuxing) track by $index"></i>
+                <span>{{p.grade}}</span>
+            </div>
+            <div class="slide_plank">
+                <ion-scroll direction="x" paging="true">
+                    <div class="scroll-plank" ng-style="{width:p.appr_grid.length*225+'px'}">
+                        <div class="scroll-page" ng-repeat="appr in p.appr_grid">
+                            <div class="appr_grid">
+                                <div class="appr_pic">
+                                    <img src="images/{{appr.appr_grid_img}}"/>
+                                </div>
+                                <div class="time">{{appr.time}}</div>
+                                <div class="appr_author">
+                                    <div class="author_icon"><img src="images/{{appr.author_icon}}"/></div>
+                                    <div class="author_name">{{appr.nick}}</div>
+                                    <div class="author_grade">
+                                        <i class="ion-star"  ng-repeat="i in getNumber(appr.pinfeng) track by $index"></i>
+                                    </div>
+                                    <div class="author_say">
+                                        <p>{{appr.say}}</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </ion-scroll>
+            </div>
+            <div class="more">查看评价</div>
+        </div>
+        <div class="people_buy">
+            <h3>大家都在买</h3>
+            <ion-slide-box>
+                <ion-slide ng-repeat="douzaimai in p.pb" ng-if="$index%3==0">
+                    <div class="row pb_row">
+                        <div ng-class="$index%3==1? 'col douzaimai_m':'col'" ng-repeat="i in [$index,$index+1,$index+2]" ng-if="p.pb[i]!=null"  ui-sref="tabs.productDesc({name:p.pb[i].name})">
+                            <div class="pb_pic"><img ng-src="images/{{p.pb[i].img}}"/></div>
+                            <div class="pb_desc">{{p.pb[i].name}}</div>
+                            <div class="price">￥{{p.pb[i].price}}</div>
+                        </div>
+                    </div>
+                </ion-slide>
+            </ion-slide-box>
+        </div>
+        <br/><br/>
+    </ion-content>
+    <div class="page_bottom clearfix">
+        <div class="store">
+            <i class="icon ion-ios-box-outline"></i>
+            <p>店铺</p>
+        </div>
+        <div class="contact">
+            <i class="icon ion-ios-chatboxes-outline"></i>
+            <p>联系卖家</p>
+        </div>
+        <div class="buy" ng-click="add(p)">立即购买</div>
+        <div class="add_car" ng-click="add(p)">加入购物车</div>
+    </div>
+</ion-view>

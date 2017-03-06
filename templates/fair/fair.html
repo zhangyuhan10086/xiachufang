@@ -1,0 +1,141 @@
+<ion-view id="fair">
+    <!--市集头部-->
+    <ion-header-bar class="item-input-inset">
+        <button class="button button-icon icon ion-ios-paperplane-outline"><span>成都市</span></button>
+        <div class="item-input-wrapper">
+            <i class="icon ion-search placeholder-icon"></i>
+            <input type="search" placeholder="搜索商品">
+        </div>
+        <button class="button button-icon icon ion-ios-cart-outline" ui-sref="tabs.cart">
+            <div class="huizhang" ng-if="numberAdd()>0">
+                <span>{{numberAdd()}}</span>
+            </div>
+        </button>
+    </ion-header-bar>
+    <ion-content>
+        <!--副导航-->
+        <div class="subNav_row">
+            <div class="row">
+                <div class="col" ui-sref="tabs.classify({key_word:'hongpei'})">
+                    <div class="subNav_icon"><img src="images/tubiao14.jpg"/></div>
+                    <div class="subNav_font">烘焙</div>
+                </div>
+                <div class="col" ui-sref="tabs.classify({key_word:'guoshu'})">
+                    <div class="subNav_icon"><img src="images/tubiao15.jpg"/></div>
+                    <div class="subNav_font">果蔬生鲜</div>
+                </div>
+                <div class="col" ui-sref="tabs.classify({key_word:'qiju'})">
+                    <div class="subNav_icon"><img src="images/tubiao16.jpg"/></div>
+                    <div class="subNav_font">器具</div>
+                </div>
+                <div class="col" ng-click="showPopup()">
+                    <div class="subNav_icon"><img src="images/tubiao17.jpg"/></div>
+                    <div class="subNav_font" >领券</div>
+                </div>
+            </div>
+            <div class="row two">
+                <div class="col" ui-sref="tabs.classify({key_word:'fangbian'})">
+                    <div class="subNav_icon"><img src="images/tubiao18.jpg"/></div>
+                    <div class="subNav_font">方便食品</div>
+                </div>
+                <div class="col" ui-sref="tabs.classify({key_word:'jinkou'})">
+                    <div class="subNav_icon"><img src="images/tupiao19.jpg"/></div>
+                    <div class="subNav_font">进口食物</div>
+                </div>
+                <div class="col" ui-sref="tabs.classify({key_word:'tiaowei'})">
+                    <div class="subNav_icon"><img src="images/tubiao20.jpg"/></div>
+                    <div class="subNav_font">调味品</div>
+                </div>
+                <div class="col">
+                    <div class="subNav_icon"><img src="images/tubiao21.jpg"/></div>
+                    <div class="subNav_font">全部分类</div>
+                </div>
+            </div>
+        </div>
+        <ion-list>
+            <ion-item class="good_shop item-text-wrap">
+                <h3>好店推荐</h3>
+                <div class="row">
+                    <div class="col" ui-sref="productDesc({name:fa.name})" ng-repeat="fa in fairHot">
+                        <div class="sale_pic">
+                            <img ng-src="images/{{fa.img}}"/>
+                        </div>
+                        <h4>{{fa.name}}</h4>
+                        <div class="price">￥{{fa.price}}</div>
+                        <p>{{fa.desc}}</p>
+                    </div>
+                </div>
+            </ion-item>
+            <ion-item class="slide_plank">
+                <div class="title">
+                    <h3>热门主题</h3>
+                </div>
+                <ion-scroll direction="x" paging="true">
+                    <div class="scroll-plank"  ng-style="{width:totalWidth()}">
+                        <div class="scroll-page" ng-repeat="h in hotThem">
+                            <div class="hot_them">
+                                <img ng-src="images/{{h.img}}"/>
+                                <div class="hot_modal"><p>{{h.font}}</p></div>
+                            </div>
+                        </div>
+                    </div>
+                </ion-scroll>
+            </ion-item>
+            <ion-item class="item-text-wrap big_ad big_one">
+                <div class="big_pic">
+                    <img ng-src="images/sale_pic28.jpg"/>
+                    <div class="big_modal">
+                        <p>进口零食特惠，卡乐比麦片47.6元包邮</p>
+                        <em>全店满68元包邮，领券更享满减</em>
+                    </div>
+                </div>
+            </ion-item>
+            <ion-item class="item-text-wrap big_ad">
+                <div class="big_pic">
+                    <img ng-src="images/sale_pic29.jpg"/>
+                    <div class="big_modal">
+                        <p>朋友口碑榜|一月厨房好物Top10</p>
+                        <em>市集爆款，限时折扣</em>
+                    </div>
+                </div>
+            </ion-item>
+        </ion-list>
+        <div class="selling">
+            <div class="title">
+                <p>已上架</p>
+            </div>
+            <div class="row sell_langBox" ng-repeat="p in products" ng-if="$index%2==0">
+                <div ng-class="$index%2==0? 'col-50 sell_grid':'col-50 sell_grid sell_grid_right'" ng-repeat="i in [$index,$index+1]" ng-if="products[i]!=null" >
+                    <div ng-if="products[i].type=='p'"  ui-sref="productDesc({name:products[i].name})">
+                        <div class="selling_pic"><img ng-src="images/{{products[i].img}}"/></div>
+                        <div class="name">{{products[i].name}}</div>
+                        <div class="selled clearfix">
+                            <div class="selled_num">已售<i>{{products[i].selled}}</i></div>
+                            <div class="baoyou" ng-if="products[i].baoyou==true">包邮</div>
+                        </div>
+                        <div class="price">￥{{products[i].price}}</div>
+                    </div>
+                    <div ng-if="products[i].type=='m'">
+                        <div class="title">{{products[i].dt}}</div>
+                        <div class="sub_t clearfix">
+                            <div class="sub_t_left">{{products[i].dd1}}</div>
+                            <div class="sub_t_right">{{products[i].dd2}}</div>
+                        </div>
+                        <div class="sub_t clearfix">
+                            <div class="sub_t_left">{{products[i].dd3}}</div>
+                            <div class="sub_t_right">{{products[i].dd4}}</div>
+                        </div>
+                        <div class="sub_t clearfix">
+                            <div class="sub_t_left">{{products[i].dd5}}</div>
+                            <div class="sub_t_right">{{products[i].dd6}}</div>
+                        </div>
+                        <div class="sub_t sub_t_last clearfix">
+                            <div class="sub_t_left">{{products[i].dd7}}</div>
+                            <div class="sub_t_right">{{products[i].dd8}}</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </ion-content>
+</ion-view>

@@ -1,0 +1,72 @@
+<ion-view id="tutorialDesc"  hide-tabs="true">
+    <ion-header-bar>
+        <button class="button button-icon icon ion-ios-arrow-back backIcon" ng-click="goBack()"></button>
+        <button class="button item-button-right button-icon icon ion-bag"></button>
+    </ion-header-bar>
+    <ion-content>
+        <div class="showPic"><img ng-src="images/{{jiaocheng.show_pic}}"/></div>
+        <ion-list>
+            <ion-item class="item-text-wrap title">
+                <h3>{{jiaocheng.title}}</h3>
+                <p>{{jiaocheng.grade}}综合评分· {{jiaocheng.does}}人最近7天做过</p>
+            </ion-item>
+            <ion-item class="author">
+                <div class="nick_pic"><img ng-src="images/{{jiaocheng.nickPic}}"/></div>
+                <div class="nick_name">{{jiaocheng.nick}}</div>
+            </ion-item>
+            <ion-item class="item-text-wrap menuDesc">
+                <p ng-repeat="menu_miaoshu in jiaocheng.menu_desc">{{menu_miaoshu.desc}}</p>
+            </ion-item>
+            <ion-item class="yongliao">
+                <p>用料</p>
+                <div class="bagBtn">加入菜篮子</div>
+            </ion-item>
+            <ion-item class="yongliao yongliaoDesc">
+                <div class="row" ng-repeat="li in jiaocheng.yongliao">
+                    <div class="col-50">{{li.liao}}</div>
+                    <div class="col-50">{{li.quantity}}</div>
+                </div>
+            </ion-item>
+            <ion-item class="stepItem item-text-warp" ng-repeat="step in jiaocheng.step">
+                <h2>步骤{{step.step_num}}</h2>
+                <div class="stepPic"><img ng-src="images/{{step.step_img}}"/></div>
+                <p>{{step.step_text}}</p>
+            </ion-item>
+            <ion-item class="tips item-text-wrap">
+                <h2>小贴士</h2>
+                <p ng-repeat="tip in jiaocheng.tips">{{tip.tip}}</p>
+            </ion-item>
+            <ion-item class="does_this_menu">
+                <h2>大家做的这道菜</h2>
+                <p>{{jiaocheng.does_num}}个作品</p>
+            </ion-item>
+            <ion-item class="slide_plank">
+                <ion-scroll direction="x" paging="true">
+                    <div class="scroll-plank" ng-style="{width:totalWidth()}">
+                        <div class="scroll-page" ng-repeat="does in jiaocheng.does_this">
+                            <div class="does_this_menu_pic">
+                                <img ng-src="images/{{does.does_this_pic}}"/>
+                            </div>
+                            <div class="who_does clearfix">
+                                <div class="who_does_icon"><img ng-src="images/{{does.touxiang}}"/></div>
+                                <div class="who">{{does.name}}</div>
+                                <div class="time">{{does.time}}小时前</div>
+                            </div>
+                            <div class="dianzan">
+                                <i class="ion-android-happy"></i>{{does.like}}
+                            </div>
+                        </div>
+                    </div>
+                </ion-scroll>
+            </ion-item>
+        </ion-list>
+        <div class="upload">
+            <i class="ion-ios-camera-outline"></i>
+            <span>上传我做的作品</span>
+        </div>
+        <div class="mark_font">这道菜的标签</div>
+        <div class="mark clearfix">
+            <div class="mark_grid" ng-repeat="mark in jiaocheng.mark">{{mark.mark_font}}</div>
+        </div>
+    </ion-content>
+</ion-view>

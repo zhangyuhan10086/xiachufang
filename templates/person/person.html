@@ -1,0 +1,68 @@
+<ion-view id="person">
+    <ion-header-bar align-title="center">
+        <button class="button button-icon ion-android-add"></button>
+        <div class="title">我</div>
+        <div class="buttons">
+            <button class="button button-icon ion-ios-personadd-outline"></button>
+            <button class="button button-icon ion-ios-gear-outline"></button>
+        </div>
+    </ion-header-bar>
+    <ion-content>
+        <ion-list>
+            <ion-item class="item_me">
+                <div class="nick">
+                    <div class="nick_name">Kirito_a3cb</div>
+                    <div class="add_time">2016-09-27加入</div>
+                    <div class="dian">···</div>
+                    <div class="tips clearfix">
+                        <div class="care">
+                            <p>1</p>
+                            <em>关注</em>
+                        </div>
+                        <div class="follower">
+                            <p>0</p>
+                            <em>粉丝</em>
+                        </div>
+                    </div>
+                </div>
+                <div class="nick_icon">
+                    <div class="icon"><img src="images/touxiang12.jpg"/></div>
+                    <p>编辑个人资料</p>
+                </div>
+            </ion-item>
+            <div class="row subNav_row">
+                <div class="col">
+                    <div class="subNav_icon"><img src="images/icon22_03.jpg"/></div>
+                    <div class="subNav_font">我的收藏</div>
+                </div>
+                <div class="col">
+                    <div class="subNav_icon"><img src="images/icon22_05.jpg"/></div>
+                    <div class="subNav_font">订单</div>
+                </div>
+                <div class="col">
+                    <div class="subNav_icon"><img src="images/icon22_07.jpg"/></div>
+                    <div class="subNav_font">优惠</div>
+                </div>
+                <div class="col">
+                    <div class="subNav_icon"><img src="images/icon22_09.jpg"/></div>
+                    <div class="subNav_font">统计</div>
+                </div>
+            </div>
+        </ion-list>
+        <div class="people_buy">
+            <h3>最近浏览</h3>
+            <ion-slide-box>
+                <ion-slide ng-repeat="x in like" ng-if="$index%3==0">
+                    <div class="row pb_row">
+                        <div ng-class="$index%3==1? 'col douzaimai_m':'col'" ng-repeat="i in [$index,$index+1,$index+2]" ng-if="like[i]!=null"  ui-sref="productDesc({name:like[i].name})">
+                            <div class="pb_pic"><img ng-src="images/{{like[i].img}}"/></div>
+                            <div class="pb_desc">{{like[i].name}}</div>
+                            <div class="price">{{like[i].price | currency:"￥"}}</div>
+                        </div>
+                    </div>
+                </ion-slide>
+            </ion-slide-box>
+        </div>
+        <br/><br/>
+    </ion-content>
+</ion-view>

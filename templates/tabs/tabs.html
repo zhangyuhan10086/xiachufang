@@ -1,0 +1,19 @@
+
+    <ion-tabs class="tabs-icon-top"  ng-class="{'tabs-item-hide': $root.hideTabs}">
+        <!--下厨房-->
+        <ion-tab icon-on="ion-ios-home" icon-off="ion-ios-home-outline" title="下厨房" ui-sref="tabs.home">
+            <ion-nav-view name="tab-home"></ion-nav-view>
+        </ion-tab>
+        <!--市集-->
+        <ion-tab icon-on="ion-ios-box" icon-off="ion-ios-box-outline" title="市集" ui-sref="tabs.fair">
+            <ion-nav-view name="tab-fair"></ion-nav-view>
+        </ion-tab>
+        <!--信箱-->
+        <ion-tab icon-on="ion-ios-email" icon-off="ion-ios-email-outline" title="信箱" ui-sref="tabs.email">
+            <ion-nav-view name="tab-email"></ion-nav-view>
+        </ion-tab>
+        <!--我-->
+        <ion-tab icon-on="ion-ios-person" icon-off="ion-ios-person-outline" title="我" ui-sref="tabs.person">
+            <ion-nav-view name="tab-person"></ion-nav-view>
+        </ion-tab>
+    </ion-tabs>

@@ -1,0 +1,28 @@
+<ion-view id="classify"  hide-tabs="true">
+    <ion-header-bar align-title="center">
+        <button class="button button-icon icon ion-ios-arrow-back backIcon" ng-click="goBack()"></button>
+        <div class="title">{{bigTitle}}</div>
+        <button class="button item-button-right button-icon icon ion-ios-cart-outline">
+            <div class="huizhang" ng-if="numberAdd()>0">
+                <span>{{numberAdd()}}</span>
+            </div>
+        </button>
+    </ion-header-bar>
+    <ion-content>
+        <div class="selling">
+            <div class="row sell_langBox" ng-repeat="p in products" ng-if="$index%2==0">
+                <div ng-class="$index%2==0? 'col-50 sell_grid':'col-50 sell_grid sell_grid_right'" ng-repeat="i in [$index,$index+1]" ng-if="products[i]!=null" >
+                    <div ui-sref="productDesc({name:products[i].name})">
+                        <div class="selling_pic"><img ng-src="images/{{products[i].img}}"/></div>
+                        <div class="name">{{products[i].name}}</div>
+                        <div class="selled clearfix">
+                            <div class="selled_num">已售<i>{{products[i].selled}}</i></div>
+                            <div class="baoyou" ng-if="products[i].baoyou==true">包邮</div>
+                        </div>
+                        <div class="price">￥{{products[i].price}}</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </ion-content>
+</ion-view>

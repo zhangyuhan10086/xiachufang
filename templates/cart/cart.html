@@ -1,0 +1,73 @@
+<ion-view id="cart"  hide-tabs="true">
+    <ion-header-bar align-title="center">
+        <button class="button button-icon icon ion-ios-arrow-back backIcon" ng-click="goBack()"></button>
+        <div class="title">购物车</div>
+        <button class="button edit" ng-click="edit_click()">{{edit}}</button>
+    </ion-header-bar>
+    <ion-content>
+        <div ng-repeat="item in cart" class="cart_product_item">
+            <div class="product_store">
+                <i class="ion-ios-box-outline"></i>
+                <span>{{item.product.store_name}}></span>
+            </div>
+            <div ng-class="item.product.check? 'lang_box clearfix ':'lang_box clearfix lang_boxNo'"  class="lang_box clearfix">
+                <div class="checkbox_zdy">
+                    <div class="checkbox_wrap">
+                        <label>
+                            <input type="checkbox" ng-model="item.product.check">
+                            <div class="check_bg" ng-if="!item.product.check"><img src="images/check1_03.jpg"/></div>
+                            <div class="check_bgok" ng-if="item.product.check"><img src="images/check2_03.jpg"/></div>
+                        </label>
+                    </div>
+                </div>
+                <div class="product_pic"><img ng-src="images/{{item.product.imgs[0].img}}"/></div>
+                <div class="product_text">
+                    <div class="p_name">
+                        <p>{{item.product.name}}</p>
+                    </div>
+                    <div class="p_text-b clearfix">
+                        <div class="price" ng-if="edit_swidth==true"><p>{{item.product.price | currency:"￥"}}<span>小计:</span>{{item.product.price*item.number | currency:"￥"}}</p></div>
+                        <div class="number clearfix" ng-if="edit_swidth==false">
+                            <div class="productbuy_num clearfix">
+                                <a href="javascript:;" ng-click="countSubt(item.product)">-</a>
+                                <p class="buy_num">{{item.number}}</p>
+                                <a href="javascript:;" ng-click="countAdd(item.product)">+</a>
+                            </div>
+                            <div class="total">
+                                小计:<span>{{item.product.price*item.number | currency:"￥"}}</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br/> <br/>
+        <div class="toShop" ng-if="!cart.length>0">
+            <div class="cart_pic">
+                <img src="images/gouwuche.png"/>
+            </div>
+            <h4>购物车空空如也~</h4>
+            <p ui-sref="tabs.fair">快去逛逛吧</p>
+        </div>
+    </ion-content>
+    <div class="footer">
+        <div class="checkbox_all">
+            <div class="checkbox_wrap">
+                <label>
+                    <input type="checkbox" ng-model="checkAll" ng-click="checkAllrun()">
+                    <div class="check_bg" ng-if="!checkAll"><img src="images/check1_03.jpg"/></div>
+                    <div class="check_bgok" ng-if="checkAll"><img src="images/check2_03.jpg"/></div>
+                    <span>全选</span>
+                </label>
+            </div>
+        </div>
+        <div class="total">
+            <p>合计:<span>{{moneyAdd() | currency:"￥"}}</span></p>
+            <em>不含运费</em>
+        </div>
+        <div class="buy_qu">
+            <div class="buy_btn" ng-if="edit_swidth==true">结算({{checkCount()}})</div>
+            <div class="buy_btn two" ng-if="edit_swidth==false" ng-click="dele()">删除({{checkCount()}})</div>
+        </div>
+    </div>
+</ion-view>

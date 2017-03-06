@@ -1,0 +1,911 @@
+[
+  {
+    "title": "花开富贵虾",
+    "grade": "8.7",
+    "does": "825",
+    "nickPic": "touxiang1.jpg",
+    "nick": "D大脸猫",
+    "show_pic": "jiaocheng01.jpg",
+    "menu_desc": [
+      {
+        "desc": "开背虾也好蒜蓉粉丝蒸虾也好都是我家很常做的菜，这次换了个拼盘方法，应应景。做法超级简单味道超级赞！关键是造型美好，非常非常适合年夜饭都入座之后端上桌，绝对会换来满堂哇喔的！"
+      },
+      {
+        "desc": "顺便名字也取了个带好彩头的，开背虾这样摆正好很像花瓣嘛！"
+      }
+    ],
+    "yongliao": [
+      {
+        "liao": "虾",
+        "quantity": "10只"
+      },
+      {
+        "liao": "大蒜",
+        "quantity": "1头"
+      },
+      {
+        "liao": "粉丝",
+        "quantity": "适量"
+      },
+      {
+        "liao": "葱",
+        "quantity": "适量"
+      },
+      {
+        "liao": "葱",
+        "quantity": "适量"
+      },
+      {
+        "liao": "料酒盐糖醋蒸鱼豉油香油",
+        "quantity": "10只"
+      }
+    ],
+    "step": [
+      {
+        "step_img": "stepPic01.jpg",
+        "step_text": "虾开背去虾线，然后用刀背把虾肉来回剁几下，敲断虾筋。",
+        "step_num":1
+      },
+      {
+        "step_img": "stepPic02.jpg",
+        "step_text": "粉丝用热水泡软，然后码到盘子里，再用一坨粉丝绕一圈放在中央",
+        "step_num":2
+      },
+      {
+        "step_img": "stepPic03.jpg",
+        "step_text": "如图码好虾子，虾子竖着靠在中间那坨粉丝上。",
+        "step_num":3
+      },
+      {
+        "step_img": "stepPic04.jpg",
+        "step_text": "打算压成泥加盐糖香油醋蒸鱼豉油调成个浇料。比例按自己的口味，可以尝一下不断调整",
+        "step_num":4
+      },
+      {
+        "step_img": "stepPic05.jpg",
+        "step_text": "然后把蒜泥汁淋在虾子上。",
+        "step_num":5
+      },
+      {
+        "step_img": "stepPic06.jpg",
+        "step_text": "锅中烧热水水开后放入虾子大火蒸个6分钟。因为虾子已经开背，肉很薄很好熟，所以蒸的时间不需要很长。",
+        "step_num":6
+      },
+      {
+        "step_img": "stepPic07.jpg",
+        "step_text": "之后虾上撒葱花，虾的间隙装饰红辣椒丁，最后烧热油浇在虾上即可上桌。",
+        "step_num":7
+      }
+    ],
+    "tips": [
+      {
+        "tip": "蒸制时间还是要根据实际虾的大小来调整哟。"
+      }
+    ],
+    "does_num":1361,
+    "does_this": [
+      {
+        "does_this_pic": "huakai_does01.jpg",
+        "touxiang": "touxiang1.jpg",
+        "name": "恒总",
+        "time": 2,
+        "like": 195
+      },
+      {
+        "does_this_pic": "huakai_does02.jpg",
+        "touxiang": "touxiang2.jpg",
+        "name": "超爷",
+        "time": 3,
+        "like": 101
+      },
+      {
+        "does_this_pic": "huakai_does03.jpg",
+        "touxiang": "touxiang3.jpg",
+        "name": "胖哥",
+        "time": 5,
+        "like": 116
+      }
+    ],
+    "mark": [
+      {
+        "mark_font": "荣耀殿堂"
+      },
+      {
+        "mark_font": "快手菜"
+      },
+      {
+        "mark_font": "年夜饭"
+      }
+    ]
+  },
+  {
+    "title": "花样馒头",
+    "grade": "8.7",
+    "does": "47",
+    "nickPic": "touxiang2.jpg",
+    "nick": "鳴〆",
+    "show_pic": "jiaocheng02.jpg",
+    "menu_desc": [
+      {
+        "desc": "我家的少爷早上吃饭是个最大的难题。。。但有一次我做了小馒头，早上婆婆煮了稀饭，儿子用稀饭下馒头吃了好几个。。。。所以就想了想，早上虽然早起一点，但儿子只要吃早饭的话不管多累我都高兴。"
+      }
+    ],
+    "yongliao": [
+      {
+        "liao": "富强粉",
+        "quantity": "500克"
+      },
+      {
+        "liao": "水",
+        "quantity": "250克"
+      },
+      {
+        "liao": "酵母",
+        "quantity": "5克"
+      },
+      {
+        "liao": "白砂糖",
+        "quantity": "10克"
+      },
+      {
+        "liao": "辅料红枣",
+        "quantity": "若干"
+      },
+      {
+        "liao": "红豆",
+        "quantity": "若干"
+      },
+      {
+        "liao": "黑豆",
+        "quantity": "若干"
+      }
+    ],
+    "step": [
+      {
+        "step_img": "mantouSp01.jpg",
+        "step_text": "面团发酵好后，取出排空气。",
+        "step_num":1
+      },
+      {
+        "step_img": "mantouSp02.jpg",
+        "step_text": " 然后取出一小部分面团排出空气用擀面杖将面团擀成约0.8厚的长条面积片。",
+        "step_num":2
+      },
+      {
+        "step_img": "mantouSp03.jpg",
+        "step_text": " 挤上豆上馅（偶是懒人，嘿所以我用的豆沙是从起市买来的现成的。",
+        "step_num":3
+      },
+      {
+        "step_img": "mantouSp04.jpg",
+        "step_text": "搓成长条，封好口，切成25mm宽的面团。",
+        "step_num":4
+      },
+      {
+        "step_img": "mantouSp05.jpg",
+        "step_text": " 放入刷好油的蒸屉，盖上锅盖进行最20分钟的最后发酵后，冰水开始蒸开后15到20分钟即可。关火后两分钟后再揭开锅盖。",
+        "step_num":5
+      }
+    ],
+    "tips": [
+      {
+        "tip": "蒸制时间还是要根据实际虾的大小来调整哟。"
+      }
+    ],
+    "does_num":1191,
+    "does_this": [
+      {
+        "does_this_pic": "huayang_does.jpg",
+        "touxiang": "touxiang4.jpg",
+        "name": "崔哥",
+        "time": 2,
+        "like": 195
+      },
+      {
+        "does_this_pic": "huayang_does02.jpg",
+        "touxiang": "touxiang5.jpg",
+        "name": "大爷",
+        "time": 3,
+        "like": 101
+      },
+      {
+        "does_this_pic": "huayang_does03.jpg",
+        "touxiang": "touxiang6.jpg",
+        "name": "王yuanyuan",
+        "time": 5,
+        "like": 116
+      },
+      {
+        "does_this_pic": "huayang_does04.jpg",
+        "touxiang": "touxiang7.jpg",
+        "name": "龙琪琪",
+        "time": 7,
+        "like": 130
+      }
+    ],
+    "mark": [
+      {
+        "mark_font": "荣耀殿堂"
+      },
+      {
+        "mark_font": "馒头"
+      }
+    ]
+  },
+  {
+    "title": "土豆红烧肉",
+    "grade": "8.8",
+    "does": "82",
+    "nickPic": "touxiang3.jpg",
+    "nick": "々愀然@？",
+    "show_pic": "jiaocheng03.jpg",
+    "menu_desc": [
+      {
+        "desc": "中国传统菜肴，川菜系。香嫩酥软，烹饪简单。先把土豆过油炸为金黄色，捞出；锅刷干净，放入净油，葱姜炝锅；加些肉汤再加些水，把做好的红烧肉放入锅中；放入调料文火炖即可。"
+      },
+      {
+        "desc": "老公是个肉控，每天不吃肉就感觉心里慌的很，，今天又来个红烧肉土豆，但是我觉得红烧肉太油腻，所以每次买肉都是选很瘦很瘦的肉，对老公来说肉好吃，可我觉得土豆比肉好吃！"
+      }
+    ],
+    "yongliao": [
+      {
+        "liao": "老抽",
+        "quantity": "1勺"
+      },
+      {
+        "liao": "食盐",
+        "quantity": "1勺"
+      },
+      {
+        "liao": "八角",
+        "quantity": "2个"
+      },
+      {
+        "liao": "五香粉",
+        "quantity": "1勺"
+      },
+      {
+        "liao": "桂皮",
+        "quantity": "1个"
+      },
+      {
+        "liao": "白糖",
+        "quantity": "1勺"
+      },
+      {
+        "liao": "三奈",
+        "quantity": "2个"
+      },
+      {
+        "liao": "植物油",
+        "quantity": "适量"
+      }
+    ],
+    "step": [
+      {
+        "step_img": "tudouSp01.jpg",
+        "step_text": "炒锅内倒点油滑一下锅，放入1大勺白糖。",
+        "step_num":1
+      },
+      {
+        "step_img": "tudouSp02.jpg",
+        "step_text": "炒至白糖融化成焦糖色",
+        "step_num":2
+      },
+      {
+        "step_img": "tudouSp03.jpg",
+        "step_text": "五花肉入锅中翻炒，至五花肉上色。",
+        "step_num":3
+      },
+      {
+        "step_img": "tudouSp04.jpg",
+        "step_text": "在放入葱、姜、大料、桂皮、三奈炒出香味",
+        "step_num":4
+      },
+      {
+        "step_img": "tudouSp05.jpg",
+        "step_text": "加入老抽、料酒、加入适量的清水，加盖子小火焖烧30分钟",
+        "step_num":5
+      },
+      {
+        "step_img": "tudouSp06.jpg",
+        "step_text": "锅中烧热水水开后放入虾子大火蒸个6分钟。因为虾子已经开背，肉很薄很好熟，所以蒸的时间不需要很长。",
+        "step_num":6
+      },
+      {
+        "step_img": "tudouSp07.jpg",
+        "step_text": "放入土豆，调入盐。",
+        "step_num":7
+      },
+      {
+        "step_img": "tudouSp08.jpg",
+        "step_text": "炖至土豆软糯，大火收汁",
+        "step_num":8
+      }
+    ],
+    "tips": [
+      {
+        "tip": "最后收汁不用收的很干，稍微留一些汤汁，成菜更好吃。"
+      },
+      {
+        "tip": "小心切到手手~"
+      }
+    ],
+    "does_num":361,
+    "does_this": [
+      {
+        "does_this_pic": "tudou_does01.jpeg",
+        "touxiang": "touxiang8.jpg",
+        "name": "丫丫的",
+        "time": 1,
+        "like": 145
+      },
+      {
+        "does_this_pic": "tudou_does02.jpg",
+        "touxiang": "touxiang9.jpg",
+        "name": "背部",
+        "time": 3,
+        "like": 22
+      },
+      {
+        "does_this_pic": "tudou_does03.jpg",
+        "touxiang": "touxiang10.jpg",
+        "name": "天空一",
+        "time": 9,
+        "like": 15
+      }
+    ],
+    "mark": [
+      {
+        "mark_font": "川菜"
+      },
+      {
+        "mark_font": "红烧"
+      },
+      {
+        "mark_font": "土豆"
+      }
+    ]
+  },
+  {
+    "title": "孔雀开屏清蒸鱼",
+    "grade": "8.8",
+    "does": "226",
+    "nickPic": "touxiang4.jpg",
+    "nick": "卜让妳懂",
+    "show_pic": "jiaocheng06.jpg",
+    "menu_desc": [
+      {
+        "desc": "孔雀开屏鱼是一道汉族传统名菜，属鲁菜系，此菜是春节节日年菜，一有喜庆祥和的意头，二鱼肉经清蒸后，不仅保持了原汁原味，还十分鲜美嫩滑。其实就是清蒸鱼换了个模样啦，也早已不是啥新鲜做法，但是不管什么时候，这绝对是一个简单好做的宴客菜，鱼可以是鲈鱼、也可以是武昌鱼或桂鱼，以经验来看，武昌鱼因为鱼身宽，成型最漂亮，但是多半还是会选择刺相对要少一些的鲈鱼，造型的话也可以随自己喜欢，摆上其他的花样。"
+      },
+      {
+        "desc": "360°无死角，给大家分享下~喜欢的不妨试试吧"
+      }
+    ],
+    "yongliao": [
+      {
+        "liao": "武昌鱼",
+        "quantity": "1条"
+      },
+      {
+        "liao": "大葱",
+        "quantity": "2小段"
+      },
+      {
+        "liao": "料酒",
+        "quantity": "2勺"
+      },
+      {
+        "liao": "盐",
+        "quantity": "少许"
+      },
+      {
+        "liao": "姜丝",
+        "quantity": "少许"
+      },
+      {
+        "liao": "蒸鱼酱油",
+        "quantity": "3-4勺"
+      },
+      {
+        "liao": "胡椒粉",
+        "quantity": "少选"
+      },
+      {
+        "liao": "耗油",
+        "quantity": "半勺"
+      },
+      {
+        "liao": "鸡精",
+        "quantity": "小半勺"
+      }
+    ],
+    "step": [
+      {
+        "step_img": "yuSp01.jpg",
+        "step_text": "鱼去鳞，剁掉头尾（头留用），剪掉鱼鳍。然后从头部的切口处掏出鱼肚内部的脏物，洗净沥干。买鱼的时候让店家刮掉鱼鳞就好了，千万不要划开鱼腹",
+        "step_num":1
+      },
+      {
+        "step_img": "yuSp02.jpg",
+        "step_text": "从头部开始，用刀从鱼背向鱼腹处切下去，但不要将鱼腹切断。刀口间隔0.5cm-1cm。一直切到鱼尾处",
+        "step_num":2
+      },
+      {
+        "step_img": "yuSp03.jpg",
+        "step_text": "切好的鱼均匀抹上盐，再洒上料酒，腌15分钟",
+        "step_num":3
+      },
+      {
+        "step_img": "yuSp04.jpg",
+        "step_text": "葱姜切丝，垫在蒸鱼的盘子底部",
+        "step_num":4
+      },
+      {
+        "step_img": "yuSp05.jpg",
+        "step_text": "放上腌好的鱼，整理成开屏状，鱼头放在前面。再在鱼身上摆上一层葱姜丝",
+        "step_num":5
+      },
+      {
+        "step_img": "yuSp06.jpg",
+        "step_text": "将鱼放蒸锅中，上汽后大火蒸5-7分钟，之后关火不开盖，再焖2分钟（虚蒸）",
+        "step_num":6
+      },
+      {
+        "step_img": "yuSp07.jpg",
+        "step_text": "蒸鱼的时候来调汁：将少许白糖、一点点胡椒粉、少许醋和蒸鱼豉油（主调料）拌匀，至糖基本溶化即可",
+        "step_num":7
+      },
+      {
+        "step_img": "yuSp08.jpg",
+        "step_text": "小心取出蒸好的鱼，倒掉蒸出的汤汁。在鱼身上均匀淋上调味汁",
+        "step_num":8
+      },
+      {
+        "step_img": "yuSp09.jpg",
+        "step_text": "锅中倒入适量油（炒菜量），烧至六成热（可见有烟冒出），关火。将油均匀淋在鱼身上。之后可以用红辣椒圈、香葱圈等装饰一下",
+        "step_num":9
+      }
+    ],
+    "tips": [
+      {
+        "tip": "头鱼体形较小且呈圆形，最重不超过一斤，它的全身只有一条脊骨，肉多骨少，肉味鲜美，很适合老人小孩多食。"
+      },
+      {
+        "tip": "小心切到手手~"
+      }
+    ],
+    "does_num":2966,
+    "does_this": [
+      {
+        "does_this_pic": "yu_does01.jpg",
+        "touxiang": "touxiang11.jpg",
+        "name": "爱你哒",
+        "time": 1,
+        "like": 145
+      },
+      {
+        "does_this_pic": "yu_does02.jpg",
+        "touxiang": "touxiang12.jpg",
+        "name": "哟唷一",
+        "time": 3,
+        "like": 22
+      },
+      {
+        "does_this_pic": "yu_does03.jpg",
+        "touxiang": "touxiang13.jpg",
+        "name": "日本一",
+        "time": 9,
+        "like": 15
+      },
+      {
+        "does_this_pic": "yu_does04.jpg",
+        "touxiang": "touxiang14.jpg",
+        "name": "氤氲",
+        "time": 9,
+        "like": 15
+      }
+    ],
+    "mark": [
+      {
+        "mark_font": "辣椒"
+      },
+      {
+        "mark_font": "鱼"
+      }
+    ]
+  },
+  {
+    "title": "手把手教你捏出漂亮的包子皱",
+    "grade": "8.7",
+    "does": "47",
+    "nickPic": "touxiang5.jpg",
+    "nick": "辰。晓*康。脉",
+    "show_pic": "jiaocheng07.jpg",
+    "menu_desc": [
+      {
+        "desc": "都说包子好吃不在褶上，如果它美貌和美味并存，即使你不想吃也会多看几眼，所以有了美味的馅再给予它一个美丽的外貌吧，即使不吃看着也养眼哪!【现在我的新浪微博“叶间月”的怎么样捏包子褶的视频已上传，感兴趣的朋友可以去看看，但纯属个人拍摄，水平有限，忘大家见谅!】"
+      }
+    ],
+    "yongliao": [
+      {
+        "liao": "发面团",
+        "quantity": "500克"
+      },
+      {
+        "liao": "菜馅，豆沙",
+        "quantity": "250克"
+      }
+    ],
+    "step": [
+      {
+        "step_img": "mantouSp01.jpg",
+        "step_text": "面团发酵好后，取出排空气。",
+        "step_num":1
+      },
+      {
+        "step_img": "mantouSp02.jpg",
+        "step_text": " 然后取出一小部分面团排出空气用擀面杖将面团擀成约0.8厚的长条面积片。",
+        "step_num":2
+      },
+      {
+        "step_img": "mantouSp03.jpg",
+        "step_text": " 挤上豆上馅（偶是懒人，嘿所以我用的豆沙是从起市买来的现成的。",
+        "step_num":3
+      },
+      {
+        "step_img": "mantouSp04.jpg",
+        "step_text": "搓成长条，封好口，切成25mm宽的面团。",
+        "step_num":4
+      },
+      {
+        "step_img": "mantouSp05.jpg",
+        "step_text": " 放入刷好油的蒸屉，盖上锅盖进行最20分钟的最后发酵后，冰水开始蒸开后15到20分钟即可。关火后两分钟后再揭开锅盖。",
+        "step_num":5
+      }
+    ],
+    "tips": [
+      {
+        "tip": "蒸制时间还是要根据实际虾的大小来调整哟。"
+      }
+    ],
+    "does_num":1191,
+    "does_this": [
+      {
+        "does_this_pic": "huayang_does.jpg",
+        "touxiang": "touxiang4.jpg",
+        "name": "崔哥",
+        "time": 2,
+        "like": 195
+      },
+      {
+        "does_this_pic": "huayang_does02.jpg",
+        "touxiang": "touxiang5.jpg",
+        "name": "大爷",
+        "time": 3,
+        "like": 101
+      },
+      {
+        "does_this_pic": "huayang_does03.jpg",
+        "touxiang": "touxiang6.jpg",
+        "name": "王yuanyuan",
+        "time": 5,
+        "like": 116
+      },
+      {
+        "does_this_pic": "huayang_does04.jpg",
+        "touxiang": "touxiang7.jpg",
+        "name": "龙琪琪",
+        "time": 7,
+        "like": 130
+      }
+    ],
+    "mark": [
+      {
+        "mark_font": "荣耀殿堂"
+      },
+      {
+        "mark_font": "馒头"
+      }
+    ]
+  },
+  {
+    "title": "四喜丸子",
+    "grade": "8.8",
+    "does": "9",
+    "nickPic": "touxiang6.jpg",
+    "nick": "恩泽宝宝",
+    "show_pic": "jiaocheng03.jpg",
+    "menu_desc": [
+      {
+        "desc": "四喜丸子代表团团圆圆，取其吉庆、团圆、美满之寓意，也是喜庆宴会常备的菜肴，这道菜不仅味道鲜美，口感爽脆，还能给我们带来欢愉融洽的感受。"
+      }
+    ],
+    "yongliao": [
+      {
+        "liao": "猪肉馅",
+        "quantity": "500g"
+      },
+      {
+        "liao": "马蹄",
+        "quantity": "50g"
+      },
+      {
+        "liao": "鸡蛋",
+        "quantity": "1个"
+      },
+      {
+        "liao": "葱",
+        "quantity": "20g"
+      },
+      {
+        "liao": "姜",
+        "quantity": "10g"
+      },
+      {
+        "liao": "生抽",
+        "quantity": "30ml"
+      },
+      {
+        "liao": "老抽",
+        "quantity": "10ml"
+      },
+      {
+        "liao": "料酒",
+        "quantity": "10ml"
+      },
+      {
+        "liao": "白糖",
+        "quantity": "10g"
+      },
+      {
+        "liao": "干淀粉",
+        "quantity": "10g"
+      },
+      {
+        "liao": "香油",
+        "quantity": "5ml"
+      },
+      {
+        "liao": "胡椒粉",
+        "quantity": "5g"
+      },
+      {
+        "liao": "盐",
+        "quantity": "少许"
+      }
+    ],
+    "step": [
+      {
+        "step_img": "wanziSp01.jpg",
+        "step_text": "马蹄去皮切成细小的碎粒，葱、姜切成碎末。",
+        "step_num":1
+      },
+      {
+        "step_img": "wanziSp02.jpg",
+        "step_text": "肉馅放入碗中，打入鸡蛋、盐、胡椒粉、料酒、生抽、干淀粉、沿着一个方向搅拌上劲，加入葱、姜末、马蹄碎和香油拌匀",
+        "step_num":2
+      },
+      {
+        "step_img": "wanziSp03.jpg",
+        "step_text": "双手沾上清水，取1/4的肉馅放在手掌中，分别团成四个大小相等的大肉丸子",
+        "step_num":3
+      },
+      {
+        "step_img": "wanziSp04.jpg",
+        "step_text": "锅中倒入油，油热后放入肉丸子，炸至表面金黄后捞出",
+        "step_num":4
+      },
+      {
+        "step_img": "wanziSp05.jpg",
+        "step_text": "炒锅留少许油，放入葱、姜煸香后倒入清水，生抽、老抽、料酒、白糖和炸好的肉丸子，大火烧开后转小火炖煮约30分钟。至汤汁收过半时，用水淀粉勾芡即可",
+        "step_num":5
+      }
+    ],
+    "tips": [
+      {
+        "tip": "油不要放多了哟"
+      },
+      {
+        "tip": "小孩子喜欢吃！"
+      }
+    ],
+    "does_num":31,
+    "does_this": [
+      {
+        "does_this_pic": "wanzi_does.jpeg",
+        "touxiang": "touxiang1.jpg",
+        "name": "大丸子",
+        "time": 1,
+        "like": 145
+      },
+      {
+        "does_this_pic": "wanzi_does02.jpg",
+        "touxiang": "touxiang2.jpg",
+        "name": "龙背",
+        "time": 3,
+        "like": 22
+      },
+      {
+        "does_this_pic": "wanzi_does03.jpg",
+        "touxiang": "touxiang3.jpg",
+        "name": "名剑aa",
+        "time": 9,
+        "like": 15
+      }
+    ],
+    "mark": [
+      {
+        "mark_font": "丸子"
+      },
+      {
+        "mark_font": "儿童"
+      },
+      {
+        "mark_font": "甜甜的"
+      }
+    ]
+  },
+  {
+    "title": "八宝钱袋",
+    "grade": "8.1",
+    "does": "126",
+    "nickPic": "touxiang7.jpg",
+    "nick": "月亮井",
+    "show_pic": "jiaocheng11.jpg",
+    "menu_desc": [
+      {
+        "desc": "做了一个非常好彩头的年菜，把多种食材包在千张里，做成钱袋子的外型，寓意大家吃了都能在新的一年中招财进宝，财运亨通顺畅，财源滚滚来！因为用了多种食材，外型又像个钱袋子，所以我叫它八宝钱袋，大家都“拎”着这个钱袋子，新的一年里把它装的满满的，满满的......"
+      }
+    ],
+    "yongliao": [
+      {
+        "liao": "鸡蛋",
+        "quantity": "3个"
+      },
+      {
+        "liao": "鸭蛋",
+        "quantity": "3个"
+      },
+      {
+        "liao": "新鲜虾",
+        "quantity": "6只"
+      },
+      {
+        "liao": "猪瘦肉",
+        "quantity": "1块"
+      },
+      {
+        "liao": "冬笋",
+        "quantity": "1块"
+      },
+      {
+        "liao": "胡萝卜",
+        "quantity": "1块"
+      },
+      {
+        "liao": "酱豆干",
+        "quantity": "1块"
+      },
+      {
+        "liao": "新鲜玉米",
+        "quantity": "1段"
+      },
+      {
+        "liao": "豌豆",
+        "quantity": "1小把"
+      },
+      {
+        "liao": "葱绿",
+        "quantity": "6根"
+      },
+      {
+        "liao": "油",
+        "quantity": "1小勺"
+      },
+      {
+        "liao": "盐",
+        "quantity": "1小勺"
+      },
+      {
+        "liao": "白胡椒粉",
+        "quantity": "半小勺"
+      },
+      {
+        "liao": "白糖",
+        "quantity": "半小勺"
+      }
+    ],
+    "step": [
+      {
+        "step_img": "badaoSp01.jpg",
+        "step_text": "把千张洗净，沥干水分，铺在砧板上，把碗倒扣，用厨房小刀沿着碗四周割成圆形。",
+        "step_num":1
+      },
+      {
+        "step_img": "badaoSp02.jpg",
+        "step_text": "割好的圆形千张，直径约是13厘米。",
+        "step_num":2
+      },
+      {
+        "step_img": "badaoSp03.jpg",
+        "step_text": "将肉、香菇、木耳、胡萝卜，切成细丝，边角料千张也一同切丝。",
+        "step_num":3
+      },
+      {
+        "step_img": "badaoSp04.jpg",
+        "step_text": "用锅内余油，将切好的配料丝统统倒入锅内。",
+        "step_num":4
+      },
+      {
+        "step_img": "badaoSp05.jpg",
+        "step_text": "再将肉丝倒入一起翻炒。",
+        "step_num":5
+      },
+      {
+        "step_img": "badaoSp06.jpg",
+        "step_text": "11最后将虾仁丁，倒入锅内，加适量盐搅拌均匀即可（雪菜本身有咸味了，盐不要放太多哦）。",
+        "step_num":6
+      },
+      {
+        "step_img": "badaoSp07.jpg",
+        "step_text": "将炒好的馅料取适量放千张上。",
+        "step_num":7
+      },
+      {
+        "step_img": "badaoSp08.jpg",
+        "step_text": "包好的一盘“八宝福袋”。",
+        "step_num":8
+      },
+      {
+        "step_img": "badaoSp09.jpg",
+        "step_text": "将“八宝福袋”放入汤锅内，大火烧开转小火15分钟即可关火",
+        "step_num":9
+      }
+    ],
+    "tips": [
+      {
+        "tip": "捏好看点哟"
+      }
+    ],
+    "does_num":2966,
+    "does_this": [
+      {
+        "does_this_pic": "babao_does01.jpg",
+        "touxiang": "touxiang11.jpg",
+        "name": "厉害了我",
+        "time": 1,
+        "like": 145
+      },
+      {
+        "does_this_pic": "babao_does02.jpg",
+        "touxiang": "touxiang12.jpg",
+        "name": "上天吗",
+        "time": 3,
+        "like": 22
+      },
+      {
+        "does_this_pic": "babao_does03.jpeg",
+        "touxiang": "touxiang13.jpg",
+        "name": "妖怪哪里",
+        "time": 9,
+        "like": 15
+      },
+      {
+        "does_this_pic": "babao_does04.png",
+        "touxiang": "touxiang14.jpg",
+        "name": "跑啊跑",
+        "time": 9,
+        "like": 15
+      }
+    ],
+    "mark": [
+      {
+        "mark_font": "丸子"
+      },
+      {
+        "mark_font": "圆圆的"
+      }
+    ]
+  }
+]
